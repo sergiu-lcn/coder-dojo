@@ -1,5 +1,5 @@
 ---
 deployment:
  tasks:
-  - export DEPLOYPATH_DEV=/home/coderdo2/public_html/
+  - export DEPLOYPATH_DEV=/home/coderdo2/public_html_dev/
   - /bin/cp -R index.html $DEPLOYPATH_DEV
