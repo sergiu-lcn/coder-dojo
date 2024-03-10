@@ -1,7 +1,5 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/coderdo2/public_html/
- - /bin/cp -R ../coder-dojo $DEPLOYPATH
- exclude:
- - .git
+  - export DEPLOYPATH=/home/coderdo2/public_html/
+  - /bin/cp -R index.html $DEPLOYPATH
